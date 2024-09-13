@@ -1,0 +1,65 @@
+body{
+    background-color: #080808;
+    color: white;
+}
+
+
+.nav-bar{
+    background-color: #1B1B1B;
+    width: 80vmax;
+    margin: auto auto 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 10vh;
+}
+.nav-link{
+    color: #9C9C9C;
+    margin: auto;
+}
+
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.name{
+    margin: 8vh 0 0 8vw;
+    font-size: 2em;
+
+}
+.intro{
+    margin-top:5vh;
+    font-size: 0.55em;
+    color: #9C9C9C;
+}
+.btn-contact{
+    background-color: #3F8E00;
+    color: white;
+    margin-top: 5vh;
+    width: 40vh;
+    height: 3vw;
+    border-radius: 8px;
+}
+.cv-photo{
+    width: 30vmax ;
+    height: 30vmax;
+    object-fit: cover; /* Crops the image to fill the container */
+    border-radius: 50%;
+}
+
+
+.title{
+    font-size: 2em;
+    margin-left: 8vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+.detail{
+    font-size: 1em;
+    margin-left: 8vw;
+ 
+}
+
+
+
